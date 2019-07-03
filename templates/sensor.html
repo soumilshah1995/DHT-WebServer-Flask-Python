@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Sensor Data Live </h1>
+    <br>
+
+    <h4 style="  color:white;  "class="Tem">Temperature {{data}} C </h4>
+    <h5 style="  color:white;"  class="Hum">Humidity {{humidity}} % </h5>
+    <br>
+    <br>
+  </div>
+</div>
+
+<style type="text/css">
+
+  .jumbotron {
+            background-color:black;
+            margin:auto;
+            background-size: cover;
+            height:100vh;}
+
+</style>
+{%  endblock  %}
