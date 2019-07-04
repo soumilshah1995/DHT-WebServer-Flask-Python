@@ -1,7 +1,7 @@
 from flask import render_template, url_for, request
 import Adafruit_DHT
-pin = 17                        // Connected to GPIO 17
-sensor = Adafruit_DHT.DHT11     // using DHT-11 Sensor
+pin = 17
+sensor = Adafruit_DHT.DHT11
 
 
 from flask import Flask
